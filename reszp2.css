@@ -1,0 +1,42 @@
+@media screen and (max-width: 1371px) {
+    
+    .bal {
+        grid-area: b;
+    }
+    .jobb {
+        grid-area: j;
+    }
+    .kozep {
+        grid-area: k;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "b j"
+        "k j";
+    }
+
+}
+
+@media screen and (max-width: 1092px) {
+    
+    .bal {
+        grid-area: b;
+    }
+    .jobb {
+        grid-area: j;
+    }
+    .kozep {
+        grid-area: k;
+    }
+
+    .grid-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "b"
+        "k"
+        "j";
+    }
+
+}

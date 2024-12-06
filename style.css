@@ -1,0 +1,117 @@
+body {
+    background-image: url(kepek/hatter.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 50%;
+    margin: auto;
+    background-color: white;
+}
+
+header {
+    background-image: url(kepek/fejlec.jpg);
+    height: 130px;
+    text-align: center;
+    color: white;
+    
+}
+
+.headerszoveg {
+    padding-top: 40px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr;
+}
+
+img {
+    min-width: 130px;
+    max-width: 150px;
+    margin: 15px;
+}
+
+footer {
+    background-color: rgb(17,136,216);
+    color: black;
+    text-align: center;
+    height: 45px;
+}
+
+.jobb {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.kepketcsoport {
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.elsonegy {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.masodiknegy {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+a {
+    text-decoration: none;
+}
+
+li {
+    background-color: rgb(17,136,216);
+    border-radius: 10px;
+    width: 150px;
+    margin-top: 5px;
+    text-align: center;
+    
+}
+
+
+
+.balrafordul, .jobbrafordul {
+    background-color: white;
+    border: solid 1px black;
+    margin: 5px;
+}
+
+.balrafordul {
+    transform: rotate(-15deg);
+}
+
+.jobbrafordul {
+    transform: rotate(15deg);
+}
+
+td {
+    border-top: 1px solid aqua;
+    text-align: center;
+}
+
+.utolso {
+    border-bottom: 1px solid aqua;
+}
+.kek {
+    background-color: rgb(59, 147, 219);
+}
+
+.footerszoveg {
+    padding-top: 15px;
+}
+
+.versszak {
+    text-align: left;
+    max-width: 200px;
+}
+
